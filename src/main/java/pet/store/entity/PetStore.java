@@ -31,15 +31,16 @@ public class PetStore {
 	
 	@EqualsAndHashCode.Exclude
 	@ToString.Exclude
+	@OneToMany(mappedBy = "petStore", cascade = CascadeType.ALL, orphanRemoval = true)
+	private Set<Employee> employees = new HashSet<>();
+		
+	@EqualsAndHashCode.Exclude
+	@ToString.Exclude
 	@ManyToMany(cascade = CascadeType.PERSIST)
 	@JoinTable(name = "pet_store_m2m_customer",
 			joinColumns = @JoinColumn(name = "petstore_id"),
 			inverseJoinColumns = @JoinColumn(name = "customer_id"))
 	private Set<Customer> customers = new HashSet<>();
 	
-	@EqualsAndHashCode.Exclude
-	@ToString.Exclude
-	@OneToMany(mappedBy = "petStore", cascade = CascadeType.ALL, orphanRemoval = true)
-	private Set<Employee> employees = new HashSet<>();
-	
+
 }

@@ -1,6 +1,43 @@
+
 {
-  "employeeFirstName": "Samantha",
-  "employeeLastName": "Burns",
-  "employeeEmail": "samantha_burns@ngo.gov",
-  "employeeJobTitle": "Manager"
+  "employeeFirstname": "Sokka",
+  "employeeLastname": "SouthernWaterTribe",
+  "employeePhone": "200-200-2002",
+  "employeeJobtitle": "Visionary"
+}
+
+{
+  "employeeFirstname": "Katara",
+  "employeeLastname": "SouthernWaterTribe",
+  "employeePhone": "300-300-3003",
+  "employeeJobtitle": "Manager"
+}
+
+{
+  "employeeFirstname": "Zuko",
+  "employeeLastname": "FireNation",
+  "employeePhone": "400-400-4004",
+  "employeeJobtitle": "Firelord"
+}
+
+{
+  "employeeFirstname": "Azula",
+  "employeeLastname": "FireNation",
+  "employeePhone": "500-500-5005",
+  "employeeJobtitle": "Archnemesis"
+}
+
+{
+  "employeeFirstname": "Aang",
+  "employeeLastname": "SouthernAirTemple",
+  "employeePhone": "600-600-6006",
+  "employeeJobtitle": "Avatar"
+}
+
+
+{
+  "employeeFirstname": "Toph",
+  "employeeLastname": "Beifong",
+  "employeePhone": "700-700-7007",
+  "employeeJobtitle": "Metalbender"
 }

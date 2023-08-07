@@ -1,8 +1,26 @@
 {
-  "petstoreName": "Really Cool Pet Store",
-  "petstoreAddress": "8395 North Bladford Lane",
-  "petstoreCity": "Gangrene",
-  "petstoreState": "Georgia",
-  "petstoreZip" : "12345",
-  "petstorePhone": "303-322-4995"
+  "petstoreName": "Alice's Awesome Pet Store",
+  "petstoreAddress": "1111 Alpha Avenue",
+  "petstoreCity": "Alabaster",
+  "petstoreState": "Alabama",
+  "petstoreZip" : "11111",
+  "petstorePhone": "111-111-1111"
+}
+
+{
+  "petstoreName": "Bob's Bitchin' Pet Store",
+  "petstoreAddress": "2222 Boggle Boulevard",
+  "petstoreCity": "Benson",
+  "petstoreState": "Bidaho",
+  "petstoreZip" : "2222",
+  "petstorePhone": "222-222-2222"
+}
+
+{
+  "petstoreName": "Charlie's Chill Pet Store",
+  "petstoreAddress": "3333 Chuckle Court",
+  "petstoreCity": "Charleston",
+  "petstoreState": "Connecticut",
+  "petstoreZip" : "3333",
+  "petstorePhone": "333-333-3333"
 }
